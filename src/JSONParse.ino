@@ -2,8 +2,8 @@
 #include <ESP8266HTTPClient.h>
 #include <ArduinoJson.h>
 
-const char* ssid = "dlink-F6F2";
-const char* password = "@r@gh0n20";
+const char* ssid = "yourSSID";
+const char* password = "yourPassword";
 const char* domain_get = "http://5-dot-dev-inno-cloud.appspot.com/blukey/ble";
 String payload;
 const char* mac;
